@@ -2,7 +2,7 @@
 
 exports[`components/Text prop "onPress" 1`] = `
 <div
-  className="rn-text-1ogs4z5 rn-cursor-1loqt21"
+  className="r-text-1ogs4z5 r-cursor-1loqt21"
   data-focusable={true}
   dir="auto"
   onClick={[Function]}
@@ -13,14 +13,14 @@ exports[`components/Text prop "onPress" 1`] = `
 
 exports[`components/Text prop "selectable" 1`] = `
 <div
-  className="rn-text-1ogs4z5"
+  className="r-text-1ogs4z5"
   dir="auto"
 />
 `;
 
 exports[`components/Text prop "selectable" 2`] = `
 <div
-  className="rn-text-1ogs4z5 rn-userSelect-lrvibr"
+  className="r-text-1ogs4z5 r-userSelect-lrvibr"
   dir="auto"
 />
 `;
