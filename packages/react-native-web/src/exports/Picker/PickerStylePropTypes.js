@@ -9,14 +9,15 @@
  */
 
 import ColorPropType from '../ColorPropType';
-import { string } from 'prop-types';
+import { number, string } from 'prop-types';
 import ViewStylePropTypes from '../View/ViewStylePropTypes';
 
 const PickerStylePropTypes = {
   ...ViewStylePropTypes,
   color: ColorPropType,
   background: string,
-  fontFamily: string
+  fontFamily: string,
+  fontSize: number
 };
 
 export default PickerStylePropTypes;

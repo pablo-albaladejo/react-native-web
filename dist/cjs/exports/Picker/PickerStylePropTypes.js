@@ -17,7 +17,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var PickerStylePropTypes = Object.assign({}, _ViewStylePropTypes2.default, {
   color: _ColorPropType2.default,
   background: _propTypes.string,
-  fontFamily: _propTypes.string
+  fontFamily: _propTypes.string,
+  fontSize: _propTypes.number
 }); /**
      * Copyright (c) 2017-present, Nicolas Gallagher.
      * Copyright (c) 2015-present, Facebook, Inc.
