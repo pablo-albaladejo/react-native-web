@@ -17,7 +17,8 @@ const PickerStylePropTypes = {
   color: ColorPropType,
   background: string,
   fontFamily: string,
-  fontSize: oneOfType([number, string])
+  fontSize: oneOfType([number, string]),
+  fontWeight: string
 };
 
 export default PickerStylePropTypes;

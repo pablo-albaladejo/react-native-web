@@ -18,7 +18,8 @@ var PickerStylePropTypes = Object.assign({}, _ViewStylePropTypes2.default, {
   color: _ColorPropType2.default,
   background: _propTypes.string,
   fontFamily: _propTypes.string,
-  fontSize: (0, _propTypes.oneOfType)([_propTypes.number, _propTypes.string])
+  fontSize: (0, _propTypes.oneOfType)([_propTypes.number, _propTypes.string]),
+  fontWeight: _propTypes.string
 }); /**
      * Copyright (c) 2017-present, Nicolas Gallagher.
      * Copyright (c) 2015-present, Facebook, Inc.
