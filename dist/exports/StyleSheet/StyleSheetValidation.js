@@ -80,6 +80,7 @@ StyleSheetValidation.addValidStylePropTypes(ViewStylePropTypes);
 
 StyleSheetValidation.addValidStylePropTypes({
   appearance: string,
+  background: string,
   borderCollapse: string,
   borderSpacing: oneOf([number, string]),
   clear: string,
