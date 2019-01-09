@@ -87,6 +87,7 @@ StyleSheetValidation.addValidStylePropTypes({
   cursor: string,
   fill: string,
   float: oneOf(['end', 'left', 'none', 'right', 'start']),
+  fontFamily: string,
   listStyle: string,
   pointerEvents: string,
   tableLayout: string,
