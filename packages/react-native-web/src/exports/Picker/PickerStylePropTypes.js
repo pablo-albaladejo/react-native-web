@@ -9,7 +9,7 @@
  */
 
 import ColorPropType from '../ColorPropType';
-import { oneOf, number, string } from 'prop-types';
+import { oneOfType, number, string } from 'prop-types';
 import ViewStylePropTypes from '../View/ViewStylePropTypes';
 
 const PickerStylePropTypes = {
@@ -17,7 +17,7 @@ const PickerStylePropTypes = {
   color: ColorPropType,
   background: string,
   fontFamily: string,
-  fontSize: oneOf([number, string])
+  fontSize: oneOfType([number, string])
 };
 
 export default PickerStylePropTypes;
