@@ -80,14 +80,12 @@ StyleSheetValidation.addValidStylePropTypes(ViewStylePropTypes);
 
 StyleSheetValidation.addValidStylePropTypes({
   appearance: string,
-  background: string,
   borderCollapse: string,
   borderSpacing: oneOf([number, string]),
   clear: string,
   cursor: string,
   fill: string,
   float: oneOf(['end', 'left', 'none', 'right', 'start']),
-  fontFamily: string,
   listStyle: string,
   pointerEvents: string,
   tableLayout: string,
