@@ -17,7 +17,8 @@ var PickerStylePropTypes = Object.assign({}, ViewStylePropTypes, {
   background: string,
   fontFamily: string,
   fontSize: oneOfType([number, string]),
-  fontWeight: string
+  fontWeight: string,
+  appearance: string
 });
 
 export default PickerStylePropTypes;
