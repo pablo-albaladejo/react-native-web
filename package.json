@@ -6,7 +6,7 @@
     "clean": "del ./packages/*/dist",
     "compile": "npm-run-all clean -p \"compile:* -- {@}\" --",
     "compile:commonjs": "cd packages/react-native-web && BABEL_ENV=commonjs babel src --out-dir dist/cjs --ignore \"**/__tests__\"",
-    "compile:es": "cd packages/react-native-web && babel src --out-dir dist --ignore \"**/__tests__\"",
+    "compile:es": "cd packages/react-native-web && babel src --out-dir ../../dist --ignore \"**/__tests__\"",
     "benchmarks": "cd packages/benchmarks && yarn build",
     "benchmarks:release": "cd packages/benchmarks && yarn release",
     "examples": "cd packages/examples && yarn build",
