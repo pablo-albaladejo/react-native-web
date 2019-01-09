@@ -9,14 +9,14 @@
  */
 
 import ColorPropType from '../ColorPropType';
-import { number, string } from 'prop-types';
+import { oneOf, number, string } from 'prop-types';
 import ViewStylePropTypes from '../View/ViewStylePropTypes';
 
 var PickerStylePropTypes = Object.assign({}, ViewStylePropTypes, {
   color: ColorPropType,
   background: string,
   fontFamily: string,
-  fontSize: number
+  fontSize: oneOf([number, string])
 });
 
 export default PickerStylePropTypes;
