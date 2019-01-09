@@ -18,6 +18,10 @@ var _ViewStylePropTypes = require('../View/ViewStylePropTypes');
 
 var _ViewStylePropTypes2 = _interopRequireDefault(_ViewStylePropTypes);
 
+var _PickerStylePropTypes = require('../Picker/PickerStylePropTypes');
+
+var _PickerStylePropTypes2 = _interopRequireDefault(_PickerStylePropTypes);
+
 var _warning = require('fbjs/lib/warning');
 
 var _warning2 = _interopRequireDefault(_warning);
@@ -96,6 +100,7 @@ StyleSheetValidation.addValidStylePropTypes(_ImageStylePropTypes2.default);
 StyleSheetValidation.addValidStylePropTypes(_TextStylePropTypes2.default);
 StyleSheetValidation.addValidStylePropTypes(_TextInputStylePropTypes2.default);
 StyleSheetValidation.addValidStylePropTypes(_ViewStylePropTypes2.default);
+StyleSheetValidation.addValidStylePropTypes(_PickerStylePropTypes2.default);
 
 StyleSheetValidation.addValidStylePropTypes({
   appearance: _propTypes.string,

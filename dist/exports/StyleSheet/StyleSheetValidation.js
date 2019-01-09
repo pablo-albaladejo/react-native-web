@@ -14,6 +14,8 @@ import ImageStylePropTypes from '../Image/ImageStylePropTypes';
 import TextInputStylePropTypes from '../TextInput/TextInputStylePropTypes';
 import TextStylePropTypes from '../Text/TextStylePropTypes';
 import ViewStylePropTypes from '../View/ViewStylePropTypes';
+import PickerStylePropsTypes from '../Picker/PickerStylePropTypes';
+
 import warning from 'fbjs/lib/warning';
 import { number, oneOf, string } from 'prop-types';
 
@@ -77,6 +79,7 @@ StyleSheetValidation.addValidStylePropTypes(ImageStylePropTypes);
 StyleSheetValidation.addValidStylePropTypes(TextStylePropTypes);
 StyleSheetValidation.addValidStylePropTypes(TextInputStylePropTypes);
 StyleSheetValidation.addValidStylePropTypes(ViewStylePropTypes);
+StyleSheetValidation.addValidStylePropTypes(PickerStylePropsTypes);
 
 StyleSheetValidation.addValidStylePropTypes({
   appearance: string,
