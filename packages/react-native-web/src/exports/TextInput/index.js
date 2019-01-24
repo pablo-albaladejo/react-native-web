@@ -386,6 +386,11 @@ class TextInput extends Component<*> {
         this.blur();
       }
     }
+    if (!e.isDefaultPrevented() && (e.which === 9) && onSubmitEditing) {
+      e.preventDefault();
+      e.nativeEvent = { target: e.target, text: e.target.value, key: 'Tab' };
+      onSubmitEditing(e);
+    }
   };
 
   _handleSelectionChange = e => {

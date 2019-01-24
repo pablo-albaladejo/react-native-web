@@ -212,6 +212,11 @@ var TextInput = function (_Component) {
           _this.blur();
         }
       }
+      if (!e.isDefaultPrevented() && (e.which === 9) && onSubmitEditing) {
+        e.preventDefault();
+        e.nativeEvent = { target: e.target, text: e.target.value, key: 'Tab' };
+        onSubmitEditing(e);
+      }
     }, _this._handleSelectionChange = function (e) {
       var _this$props4 = _this.props,
           onSelectionChange = _this$props4.onSelectionChange,
