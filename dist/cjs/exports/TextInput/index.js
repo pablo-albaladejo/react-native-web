@@ -248,7 +248,7 @@ var TextInput = function (_Component) {
           _this.blur();
         }
       }
-      if (!e.isDefaultPrevented() && (e.which === 9) && onSubmitEditing) {
+      if (!e.isDefaultPrevented() && e.which === 9 && onSubmitEditing) {
         e.preventDefault();
         e.nativeEvent = { target: e.target, text: e.target.value, key: 'Tab' };
         onSubmitEditing(e);
