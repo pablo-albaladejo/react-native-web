@@ -379,7 +379,7 @@ class TextInput extends Component<*> {
       if ((blurOnSubmit || !multiline) && onSubmitEditing) {
         // prevent "Enter" from inserting a newline
         e.preventDefault();
-        e.nativeEvent = { target: e.target, text: e.target.value };
+        e.nativeEvent = { target: e.target, text: e.target.value, key: 'Enter' };
         onSubmitEditing(e);
       }
       if (shouldBlurOnSubmit) {
